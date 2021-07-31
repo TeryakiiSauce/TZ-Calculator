@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TZ_Calculator</RootNamespace>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Authors>Elias Rahma</Authors>
+    <Description>Originally made because I didn't want to look up a million sites just to calulate the timezones</Description>
+    <Copyright>Elias Rahma</Copyright>
+    <PackageIcon>icon.jpg</PackageIcon>
+    <PackageIconUrl />
+    <SignAssembly>false</SignAssembly>
+    <AssemblyName>TZ Calculator</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
