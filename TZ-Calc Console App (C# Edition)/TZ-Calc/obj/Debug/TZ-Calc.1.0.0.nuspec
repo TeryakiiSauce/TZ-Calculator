@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TZ-Calc</id>
+    <version>1.0.0</version>
+    <authors>Elias R</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.jpg</icon>
+    <projectUrl>https://github.com/TeryakiiSauce/TZ-Calculator</projectUrl>
+    <description>Displays the local time converted from the time-zone set.</description>
+    <copyright>Elias Rahma</copyright>
+    <repository url="https://github.com/TeryakiiSauce/TZ-Calculator" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.runtimeconfig.json" target="lib\netcoreapp3.1\TZ-Calc.runtimeconfig.json" />
+    <file src="Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.dll" target="lib\netcoreapp3.1\TZ-Calc.dll" />
+    <file src="Z:\Documents\GitHub\TZ-Calculator\LICENSE.txt" target="LICENSE.txt" />
+    <file src="Z:\Documents\GitHub\TZ-Calculator\Simple Timezone Calculator\icon.jpg" target="icon.jpg" />
+  </files>
+</package>

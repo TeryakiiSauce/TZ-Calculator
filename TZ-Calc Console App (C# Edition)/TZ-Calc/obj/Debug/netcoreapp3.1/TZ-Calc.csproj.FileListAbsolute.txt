@@ -1,0 +1,15 @@
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.exe
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.deps.json
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.runtimeconfig.json
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.runtimeconfig.dev.json
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.dll
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\bin\Debug\netcoreapp3.1\TZ-Calc.pdb
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ_Calc.Properties.Resources.resources
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.csproj.GenerateResource.cache
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.AssemblyInfoInputs.cache
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.AssemblyInfo.cs
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.csproj.CoreCompileInputs.cache
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.dll
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.pdb
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\TZ-Calc\obj\Debug\netcoreapp3.1\TZ-Calc.genruntimeconfig.cache

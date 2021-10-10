@@ -1,0 +1,5 @@
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\App\TZ-Calc.exe
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\App\TZ-Calc.dll
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\App\TZ-Calc.deps.json
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\App\TZ-Calc.runtimeconfig.json
+Z:\Documents\GitHub\TZ-Calculator\TZ-Calc Console App (C# Edition)\App\TZ-Calc.pdb
