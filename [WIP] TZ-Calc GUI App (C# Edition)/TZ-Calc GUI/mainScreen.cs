@@ -16,5 +16,16 @@ namespace TZ_Calc_GUI
         {
             InitializeComponent();
         }
+
+        private void customTimezoneCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (customTimezoneCheckBox.Checked == false)
+            {
+                timezonePicker.DropDownStyle = ComboBoxStyle.DropDownList;
+            } else
+            {
+                timezonePicker.DropDownStyle = ComboBoxStyle.DropDown;
+            }
+        }
     }
 }
