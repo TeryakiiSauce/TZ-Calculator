@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TZ-Calc GUI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Timezone Calculator")]
+[assembly: AssemblyDescription("Displays the local time converted from the time-zone set.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TZ-Calc GUI")]
+[assembly: AssemblyProduct("Timezone Calculator")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

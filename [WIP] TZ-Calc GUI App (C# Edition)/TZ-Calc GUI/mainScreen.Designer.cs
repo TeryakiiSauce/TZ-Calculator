@@ -29,12 +29,15 @@ namespace TZ_Calc_GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainScreen));
             this.datePicker = new System.Windows.Forms.DateTimePicker();
             this.eventTimeLabel = new System.Windows.Forms.Label();
             this.timezonePicker = new System.Windows.Forms.ComboBox();
             this.timezoneLabel = new System.Windows.Forms.Label();
             this.customTimezoneCheckBox = new System.Windows.Forms.CheckBox();
             this.getClipboardBtn = new System.Windows.Forms.Button();
+            this.continueBtn = new System.Windows.Forms.Button();
+            this.resultTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // datePicker
@@ -108,6 +111,8 @@ namespace TZ_Calc_GUI
             this.timezonePicker.Name = "timezonePicker";
             this.timezonePicker.Size = new System.Drawing.Size(181, 29);
             this.timezonePicker.TabIndex = 2;
+            this.timezonePicker.SelectionChangeCommitted += new System.EventHandler(this.timezonePicker_SelectionChangeCommitted);
+            this.timezonePicker.TextUpdate += new System.EventHandler(this.timezonePicker_TextUpdate);
             // 
             // timezoneLabel
             // 
@@ -143,22 +148,57 @@ namespace TZ_Calc_GUI
             this.getClipboardBtn.TabIndex = 5;
             this.getClipboardBtn.Text = "Paste Time Info from Clipboard";
             this.getClipboardBtn.UseVisualStyleBackColor = true;
+            this.getClipboardBtn.Click += new System.EventHandler(this.getClipboardBtn_Click);
+            // 
+            // continueBtn
+            // 
+            this.continueBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.continueBtn.Enabled = false;
+            this.continueBtn.Font = new System.Drawing.Font("OCR A Extended", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.continueBtn.Location = new System.Drawing.Point(48, 256);
+            this.continueBtn.Name = "continueBtn";
+            this.continueBtn.Size = new System.Drawing.Size(406, 56);
+            this.continueBtn.TabIndex = 6;
+            this.continueBtn.Text = "Continue";
+            this.continueBtn.UseVisualStyleBackColor = true;
+            this.continueBtn.Click += new System.EventHandler(this.continueBtn_Click);
+            // 
+            // resultTextBox
+            // 
+            this.resultTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.resultTextBox.BackColor = System.Drawing.Color.Snow;
+            this.resultTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.resultTextBox.Font = new System.Drawing.Font("Roboto Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultTextBox.ForeColor = System.Drawing.Color.Maroon;
+            this.resultTextBox.Location = new System.Drawing.Point(48, 176);
+            this.resultTextBox.Name = "resultTextBox";
+            this.resultTextBox.ReadOnly = true;
+            this.resultTextBox.Size = new System.Drawing.Size(406, 74);
+            this.resultTextBox.TabIndex = 7;
+            this.resultTextBox.Text = "";
             // 
             // mainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(504, 331);
+            this.Controls.Add(this.resultTextBox);
+            this.Controls.Add(this.continueBtn);
             this.Controls.Add(this.getClipboardBtn);
             this.Controls.Add(this.customTimezoneCheckBox);
             this.Controls.Add(this.timezoneLabel);
             this.Controls.Add(this.timezonePicker);
             this.Controls.Add(this.eventTimeLabel);
             this.Controls.Add(this.datePicker);
-            this.MinimumSize = new System.Drawing.Size(400, 300);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(400, 290);
             this.Name = "mainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Timezone Calculator";
+            this.Shown += new System.EventHandler(this.mainScreen_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,6 +212,8 @@ namespace TZ_Calc_GUI
         private System.Windows.Forms.Label timezoneLabel;
         private System.Windows.Forms.CheckBox customTimezoneCheckBox;
         private System.Windows.Forms.Button getClipboardBtn;
+        private System.Windows.Forms.Button continueBtn;
+        private System.Windows.Forms.RichTextBox resultTextBox;
     }
 }
 

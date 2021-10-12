@@ -8,3 +8,8 @@ Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI
 Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.csproj.CoreCompileInputs.cache
 Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.exe
 Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.pdb
+Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\bin\Debug\TZ-Calc GUI.exe.manifest
+Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\bin\Debug\TZ-Calc GUI.application
+Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.TrustInfo.xml
+Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.exe.manifest
+Z:\Documents\GitHub\TZ-Calculator\[WIP] TZ-Calc GUI App (C# Edition)\TZ-Calc GUI\obj\Debug\TZ-Calc GUI.application
